@@ -22,4 +22,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+Application will run at http://localhost:3000
 ```
