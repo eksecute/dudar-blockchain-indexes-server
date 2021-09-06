@@ -174,7 +174,6 @@ export class RopstenService {
         batch.add(
           web3.eth.getBlock.request(latest, (err, res) => {
             if (err)  {
-              console.error(333, err)
               return reject(err);
             }
 
